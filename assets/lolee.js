@@ -20,8 +20,8 @@ $( document ).ready(function() {
         'top':posy+'px',
         'display':'none'
     }).addClass(loleeClass)
-    .appendTo('body' )
     .fadeIn(100)
+    .appendTo('body' )
     .delay(1000)
     .fadeOut(4500, function(){$(this).remove();});
       dosomeloleeloleetimethings();
